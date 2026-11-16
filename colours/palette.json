@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Orange (accent)",
+    "hex": "#F37C20",
+    "rgb": [
+      243,
+      124,
+      32
+    ]
+  },
+  {
+    "name": "Ink",
+    "hex": "#1A1A1A",
+    "rgb": [
+      26,
+      26,
+      26
+    ]
+  },
+  {
+    "name": "White",
+    "hex": "#FFFFFF",
+    "rgb": [
+      255,
+      255,
+      255
+    ]
+  },
+  {
+    "name": "Canvas",
+    "hex": "#F5F4F1",
+    "rgb": [
+      245,
+      244,
+      241
+    ]
+  },
+  {
+    "name": "Sunk",
+    "hex": "#ECEAE3",
+    "rgb": [
+      236,
+      234,
+      227
+    ]
+  },
+  {
+    "name": "Accent tint",
+    "hex": "#FDEEE0",
+    "rgb": [
+      253,
+      238,
+      224
+    ]
+  },
+  {
+    "name": "Accent text",
+    "hex": "#B4560D",
+    "rgb": [
+      180,
+      86,
+      13
+    ]
+  },
+  {
+    "name": "Danger",
+    "hex": "#E11D2A",
+    "rgb": [
+      225,
+      29,
+      42
+    ]
+  },
+  {
+    "name": "Success",
+    "hex": "#0EC038",
+    "rgb": [
+      14,
+      192,
+      56
+    ]
+  }
+]
