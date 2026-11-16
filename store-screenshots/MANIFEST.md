@@ -18,7 +18,7 @@ Screen order is the same in every language: 01 Home, 02 Sell, 03 Filters, 04 Off
 - **Source page:** Store Screenshots.dc.html, Arabic section (text in store-langs.js)
 - **Store locale:** App Store "Arabic" and Google Play "Arabic".
 - **Layout:** right to left, with Eastern Arabic digits for counts and dates. Prices stay as written.
-- **Headlines:** اشترِ وبِع في كل كردستان · بِع خلال دقيقة من كاميرتك · اعثر على ما تريده بالضبط · اتفقا على السعر داخل المحادثة · كل التفاصيل قبل أن تلتقيا · تنبيهات فورية لعمليات بحثك · تابع البائعين الذين تحبهم · مدينتك، أو كل كردستان
+- **Headlines:** اشترِ وبِع في كل كردستان · بِع خلال دقيقة من كاميرتك · اعثر على ما تريده بالضبط · اتفقا على السعر داخل المحادثة · كل التفاصيل قبل أن تلتقيا · تنبيهات لعمليات بحثك المحفوظة · تابع البائعين الذين تحبهم · مدينتك، أو كل كردستان
 
 ## turkish/ (17 files)
 - **Source page:** Store Screenshots.dc.html, Turkish section (text in store-langs.js)
