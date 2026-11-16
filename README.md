@@ -77,3 +77,30 @@ the wording change of 2026-11-16 and still show the old word for a listing.
 - `banners/` — headers and covers for X, Facebook, LinkedIn and YouTube, the link-preview size, Instagram post and story, TikTok and WhatsApp, each in orange, ink and light.
 - `link-preview-1200x630.jpg` — the image shown when hemu.krd is shared.
 - `hero-portrait.webp`, `hero-landscape.webp` — the website's hero pictures.
+
+## marketing/
+
+Ready-made images for ads, social, print and store pages, in the six app languages
+(`english`, `sorani`, `kurmanci`, `arabic`, `turkish`, `farsi`). Right-to-left languages are mirrored.
+The phone screens come from the store screenshots; the headlines are the same lines as the store
+screenshots (`store-screenshots/MANIFEST.md`), so the Kurmancî and Farsi headlines are still drafts that
+need a native speaker. Only the English cards carry "Available on Google Play and the App Store"; the other
+languages show the wordmark, the icon and hemu.krd without it. There are no tablet screenshots and no store badges.
+
+- `ads/<language>/` — one image per feature screen (01 Home … 08 Cities) in four sizes:
+  - `square-1080x1080/` — Meta/Instagram feed, Google App campaigns square.
+  - `portrait-1080x1350/` — Instagram and Facebook 4:5 feed.
+  - `story-1080x1920/` — Stories, Reels, TikTok, Shorts. Text and phone stay inside the safe area (clear of the top 250 px and bottom 420 px).
+  - `landscape-1200x628/` — Google App campaigns landscape, Facebook link, X card.
+  - Orange background; `01-home` also comes on ink (`-ink`) and on canvas (`-light`).
+- `launch/<language>/<size>/hemu-brand-orange.png` and `hemu-brand-ink.png` — brand cards (icon, wordmark, headline 01, hemu.krd), same four sizes.
+- `app-store-header-search/<language>/` — Apple's two newer App Store assets, orange, RGB with no transparency:
+  - `header-3840x1646.png` — product page header (21:9). Everything that matters sits in the art safe area, 1646 × 661 at x 1097, y 493: the white wordmark and the headline. Phones fill the sides and are cropped differently per device.
+  - `search-results-3840x2560.png` — search results asset (3:2). The headline and the top of the three phones (listing, home, offers chat) sit in the safe area, up to 2168 × 1030 at x 836, y 765.
+  - Apple's rules: no website address, no store or other platform names, no prices claims. Nothing of that is on these files. The Arabic App Store slot uses the Soranî files (owner's decision).
+- `google-play-developer-page/` — `header-4096x2304.png` (wordmark, English headline, three phones; the content stays in the central 60 % because Google crops it) and `developer-icon-512.png`.
+- `qr/` — QR codes for Google Play, the App Store and hemu.krd, as PNG (1024) and SVG, black on white with a quiet zone and high error correction. The `-with-icon` versions have the app icon in the centre. All were decoded with OpenCV and read back the right link.
+- `youtube/` — `channel-banner-2560x1440.png` (the text sits in the 1546 × 423 safe area) and a 1280 × 720 video thumbnail per language (`thumbnail-1280x720-<language>.png`).
+- `print/` — A5 flyer, 1748 × 2480 px (300 dpi), one per language: headline, three phones, the three QR codes labelled Google Play, App Store and hemu.krd, and the wordmark.
+
+Headlines are set in Unbounded Bold for Latin scripts and in the system Arabic font for Soranî, Arabic and Farsi, as in the store screenshots. The files are PNG; none is large enough to need a JPEG.
